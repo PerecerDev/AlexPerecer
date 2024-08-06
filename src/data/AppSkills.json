@@ -1,0 +1,201 @@
+{
+  "section1": {
+    "Illustrator": {
+      "icon": "/icons/skills/Illustrator.svg",
+      "name": "Adobe Illustrator",
+      "level": "Avanzado"
+    },
+    "Photoshop": {
+      "icon": "/icons/skills/Photoshop.svg",
+      "name": "Adobe Photoshop",
+      "level": "Avanzado"
+    },
+    "Indesign": {
+      "icon": "/icons/skills/Indesign.svg",
+      "name": "Adobe Indesign",
+      "level": "Básico"
+    },
+    "Acrobat": {
+      "icon": "/icons/skills/Acrobat.svg",
+      "name": "Adobe Acrobat",
+      "level": "Medio"
+    },
+    "Canva": {
+      "icon": "/icons/skills/Canva.svg",
+      "name": "Adobe Canva",
+      "level": "Avanzado"
+    },
+    "Figma": {
+      "icon": "/icons/skills/Figma.svg",
+      "name": "Adobe Figma",
+      "level": "Básico"
+    }
+  },
+  "section2": {
+    "HTML": {
+      "icon": "/icons/skills/HTML.svg",
+      "name": "HTML",
+      "level": "Avanzado"
+    },
+    "CSS": {
+      "icon": "/icons/skills/CSS.svg",
+      "name": "CSS",
+      "level": "Avanzado"
+    },
+    "JS": {
+      "icon": "/icons/skills/JS.svg",
+      "name": "JS",
+      "level": "Medio"
+    },
+    "PHP": {
+      "icon": "/icons/skills/PHP.svg",
+      "name": "PHP",
+      "level": "Medio"
+    },
+    "SQL": {
+      "icon": "/icons/skills/SQL.svg",
+      "name": "SQL",
+      "level": "Básico"
+    },
+    "Node": {
+      "icon": "/icons/skills/Node.svg",
+      "name": "Node",
+      "level": "Básico"
+    },
+    "Astro": {
+      "icon": "/icons/skills/Astro.svg",
+      "name": "Astro",
+      "level": "Básico"
+    },
+    "Tailwind": {
+      "icon": "/icons/skills/Tailwind.svg",
+      "name": "Tailwind",
+      "level": "Medio"
+    }
+  },
+  "section3": {
+    "Wordpress": {
+      "icon": "/icons/skills/Wordpress.svg",
+      "name": "Wordpress",
+      "level": "Avanzado"
+    },
+    "Woocommerce": {
+      "icon": "/icons/skills/Woocommerce.svg",
+      "name": "Woocommerce",
+      "level": "Avanzado"
+    },
+    "Dokan": {
+      "icon": "/icons/skills/Dokan.svg",
+      "name": "Dokan",
+      "level": "Medio"
+    },
+    "Mailpoet": {
+      "icon": "/icons/skills/Mailpoet.svg",
+      "name": "Mail Poet",
+      "level": "Medio"
+    },
+    "WPML": {
+      "icon": "/icons/skills/WPML.svg",
+      "name": "WPML",
+      "level": "Medio"
+    },
+    "Elementor": {
+      "icon": "/icons/skills/Elementor.svg",
+      "name": "Elementor",
+      "level": "Medio"
+    },
+    "Custom Plugin": {
+      "icon": "/icons/skills/Custom.svg",
+      "name": "Custom Plugin",
+      "level": "Medio"
+    },
+    "Custom Theme": {
+      "icon": "/icons/skills/Custom.svg",
+      "name": "Custom Theme",
+      "level": "Medio"
+    }
+  },
+  "section4": {
+    "Ads": {
+      "icon": "/icons/skills/Ads.svg",
+      "name": "Google Ads",
+      "level": "Básico"
+    },
+    "Meta": {
+      "icon": "/icons/skills/Meta.svg",
+      "name": "Meta Ads",
+      "level": "Básico"
+    },
+    "Analytics": {
+      "icon": "/icons/skills/Analytics.svg",
+      "name": "Google Analytics",
+      "level": "Básico"
+    },
+    "Clicky": {
+      "icon": "/icons/skills/Clicky.svg",
+      "name": "Clicky Analytics",
+      "level": "Medio"
+    }
+  },
+  "section5": {
+    "ChatGPT": {
+      "icon": "/icons/skills/ChatGPT.svg",
+      "name": "ChatGPT",
+      "level": "Medio"
+    },
+    "Pipedrive": {
+      "icon": "/icons/skills/Pipedrive.svg",
+      "name": "Pipedrive",
+      "level": "Medio"
+    },
+    "Zapier": {
+      "icon": "/icons/skills/Zapier.svg",
+      "name": "Zapier",
+      "level": "Medio"
+    },
+    "Manychat": {
+      "icon": "/icons/skills/Manychat.svg",
+      "name": "Manychat",
+      "level": "Medio"
+    }
+  },
+  "section6": {
+    "Drive": {
+      "icon": "/icons/skills/Drive.svg",
+      "name": "Google Drive",
+      "level": "Avanzado"
+    },
+    "Docs": {
+      "icon": "/icons/skills/Docs.svg",
+      "name": "Google Docs",
+      "level": "Avanzado"
+    },
+    "Sheets": {
+      "icon": "/icons/skills/Sheets.svg",
+      "name": "Google Sheets",
+      "level": "Avanzado"
+    },
+    "Slides": {
+      "icon": "/icons/skills/Slides.svg",
+      "name": "Google Slides",
+      "level": "Avanzado"
+    }
+  },
+  "section7": {
+    "Visual": {
+      "icon": "/icons/skills/Visual.svg",
+      "name": "VSC",
+      "level": "Medio"
+    },
+    "GIT": {
+      "icon": "/icons/skills/GIT.svg",
+      "name": "GIT",
+      "level": "Básico"
+    },
+    "Filezilla": {
+      "icon": "/icons/skills/Filezilla.svg",
+      "name": "Filezilla",
+      "level": "Medio"
+    }
+  }
+}

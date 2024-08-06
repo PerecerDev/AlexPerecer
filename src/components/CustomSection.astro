@@ -1,20 +1,20 @@
 ---
-import BioIcon from '../icons/BioIcon.astro'
+const {bg, iconSection, nameSection, text, iconSize} = Astro.props
 ---
 
-<section class=`relative`>
+<section class=`relative -mt-[200px]`>
+  <figure
+    class=`${bg} block px-12 py-14 absolute top-4 left-1/2 -translate-x-1/2 z-10 rounded-full`
+  >
+    <img src={iconSection} alt={nameSection} class=` w-[4.5rem] ${iconSize}`/>
+  </figure>
 
-    <figure class=`${Astro.props.bg} block px-12 py-14 absolute top-4 left-1/2 -translate-x-1/2 z-10 rounded-full`>
-        <BioIcon class=" w-[4.5rem] "/>
-    </figure>
-
-    <div
-        class=`${Astro.props.bg} ${Astro.props.text} py-80`
-        style="clip-path: polygon(0 200px, 100% 0, 100% calc(100% - 200px), 0% 100%);"    
-    >
-        <article class=" max-w-screen-md mx-auto">
-            <slot />
-        </article>
-    </div>
-
+  <div
+    class=`${bg} ${text} py-80`
+    style="clip-path: polygon(0 200px, 100% 0, 100% calc(100% - 200px), 0% 100%);"
+  >
+    <article class=` max-w-screen-md mx-auto`>
+      <slot />
+    </article>
+  </div>
 </section>

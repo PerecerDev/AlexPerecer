@@ -1,0 +1,15 @@
+---
+const {name, level, icon} = Astro.props
+
+---
+
+
+<figure class="grid justify-items-center">
+    <img src={icon} alt={name} class=" w-16 m-4"/>
+    <span class=" text-base font-normal ">
+        {name}
+    </span>
+    <span class=" text-sm font-light ">
+        {level}
+    </span>
+</figure>

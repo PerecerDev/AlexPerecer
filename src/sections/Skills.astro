@@ -1,0 +1,23 @@
+---
+import CustomSection from "../components/CustomSection.astro"
+import AppSkill from "../components/AppSkill.astro"
+import data from "../data/AppSkills.json";
+
+const skillsData = Object.values(data);
+---
+
+<CustomSection bg="bg-[#cec1b5]" text="text-center font-light text-lg" iconSection="/icons/sections/Skills.svg" nameSection="Biography" iconSize="w-10">
+
+  {skillsData.map(section => (
+
+    <div class="grid grid-cols-[repeat(auto-fit,_minmax(150px,_1fr))] gap-2 p-8 border-b border-b-stone-600 w-">
+
+      {Object.values(section).map(skill => (
+        <AppSkill icon={skill.icon} name={skill.name} level={skill.level}/>
+      ))}
+
+    </div>
+
+  ))}
+
+</CustomSection>
