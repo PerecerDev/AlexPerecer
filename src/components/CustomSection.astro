@@ -10,7 +10,7 @@ import BioIcon from '../icons/BioIcon.astro'
 
     <div
         class=`${Astro.props.bg} ${Astro.props.text} py-80`
-        style="clip-path: polygon(0 20%, 100% 0, 100% 80%, 0% 100%);"    
+        style="clip-path: polygon(0 200px, 100% 0, 100% calc(100% - 200px), 0% 100%);"    
     >
         <article class=" max-w-screen-md mx-auto">
             <slot />
