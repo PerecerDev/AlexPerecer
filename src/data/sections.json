@@ -1,0 +1,18 @@
+{
+    "bio": {
+        "bg": "red",
+        "icon": ""
+    },
+    "skills": {
+        "bg": "blue",
+        "icon": ""
+    },
+    "history": {
+        "bg": "green",
+        "icon": ""
+    },
+    "proyects": {
+        "bg": "black",
+        "icon": ""
+    }
+}
