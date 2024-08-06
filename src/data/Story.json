@@ -1,0 +1,56 @@
+[
+    {
+        "company": "Formación",
+        "position": "",
+        "place": "",
+        "tasks": {
+            "1": "Bachillerato de Ciencias y Tecnología (2009)",
+            "2": "Formación Profesional Grado Superior - Diseño Gráfico (2011)"
+        }
+    },
+    {
+        "company": "Autónomo (2012 - 2015)",
+        "position": "Diseño Gráfico y Programación Web",
+        "place": "Trabajo remoto",
+        "tasks": {
+            "1": "Diseño Gráfico",
+            "2": "Marketing Online",
+            "3": "Programador Web"
+        }
+    },
+    {
+        "company": "Aventura África (2015-2022)",
+        "position": "Diseño Gráfico",
+        "place": "Trabajo remoto",
+        "tasks": {
+            "1": "Diseño Gráfico",
+            "2": "Marketing Online",
+            "3": "Social Media",
+            "4": "Atención al Cliente",
+            "5": "Administrador y gestor de Sede en España (2017)"
+        }
+    },
+    {
+        "company": "Droid Projects (2022 - 2023)",
+        "position": "Marketing Online",
+        "place": "Trabajo remoto",
+        "tasks": {
+            "1": "Diseño Gráfico",
+            "2": "Marketing Online",
+            "3": "Social Media",
+            "4": "Campañas SEM"
+        }
+    },
+    {
+        "company": "Brouwhoeve (2023 - 2024)",
+        "position": "Ecommerce Manager",
+        "place": "Trabajo remoto",
+        "tasks": {
+            "1": "Diseño Gráfico",
+            "2": "Marketing Online",
+            "3": "Social Media",
+            "4": "Campañas SEM"
+        }
+    }
+]
+

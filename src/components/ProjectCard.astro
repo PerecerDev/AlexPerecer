@@ -1,0 +1,36 @@
+---
+const {name, company, descriptions, list, apps} = Astro.props 
+const pathIcon = "../../public/icons/skills/"
+const extension = ".svg"
+var result = " - ";
+
+---
+
+<div class="mb-20 text-center">
+    <h4 class="text-white font-light text-lg">{company}</h4>
+    <h3 class="text-white font-normal text-2xl">{name}</h3>
+        {
+            descriptions.map(description => (
+                <p class="text-[#cec1b5] font-light text-base">{description}</p><br/>
+            ))
+        }
+    <ul>
+        {
+            list.map(lis => (
+                <li class="text-[#cec1b5] font-light text-base">{lis}</li>
+            ))
+        }
+    </ul>
+    <ul class=" inline text-white">
+        {
+            apps.map(app => (
+
+                <li>
+                    <h1>YEAH</h1>
+                    <img src={app} alt="" />                    
+                </li>
+            ))
+        }
+    </ul>
+
+</div>

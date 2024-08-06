@@ -1,0 +1,90 @@
+[
+    {
+        "name": "Renovación de Identidad Corporativa",
+        "company": "Aventura África",
+        "descriptions": [
+            "Creación de nuevo Logo, junto a nuevos colores y fuentes que representen la marca.",
+            "Diseño de la estructura visual de documentos, presentaciones y otros materiales"
+        ],
+        "apps": [
+            "Illustrator",
+            "Photoshop",
+            "Acrobat",
+            "Docs",
+            "Slides",
+            "Sheets"
+        ]
+    },
+    {
+        "name": "Auto registro de clientes en CRM",
+        "company": "Aventura África",
+        "descriptions": [
+            "Los contactos de clientes recibidos a través de un formulario en la web son filtrados y registrados en un Sheet de Google, separando los campos del formulario en celdas individuales para posterior análisis y recolección de datos.",
+            "Automáticamente se genera un nuevo Deal en el CRM Pipedrive. A este Deal se le asigna un nuevo cliente con los datos de contacto registrados."
+        ],
+        "apps": [
+            "JS",
+            "Zapier",
+            "Pipedrive",
+            "Sheets"
+        ]
+    },
+    {
+        "name": "Generador de Itinerarios de Viaje",
+        "company": "Aventura África",
+        "descriptions": [
+            "Sistema de creación de de Itinerarios de viaje en el que se puede escoger el día a día de pasajeros, destinos, hoteles, actividades, etc.",
+            "Generación de documento en PDF automáticamente. Estructura y diseño del documento en Google Slides y registro de datos en Google Sheets para fácil acceso y edición de todo el equipo."
+        ],
+        "apps": [
+            "Drive",
+            "JS",
+            "Slides",
+            "Sheets"
+        ]
+    },
+    {
+        "name": "Plantillas y contenidos para RRSS",
+        "company": "Droid Projects",
+        "descriptions": [
+            "Diseño de plantillas para Redes Sociales de los clientes de la empresa. Especialmente IG, FB y YT.",
+            "Creación de contenidos con utilizando las plantillas previamente diseñadas."
+        ],
+        "apps": [
+            "Illustrator",
+            "Photoshop",
+            "Docs",
+            "Drive"
+        ]
+    },
+    {
+        "name": "Gestión, desarrollo y mantenimiento de Ecommerce",
+        "company": "Brouwhoeve",
+        "descriptions": [
+            "Administración, mantenimiento y resolución de problemas del Ecommerce basado en Wordpress y Woocommerce.",
+            "Generación de contenido (páginas, blogs, productos, etc) adaptado y traducido a los idiomas escogidos en WPML.",
+            "Administración y creación de plugins.",
+            "Implementación de nuevas funcionalidades:"
+        ],
+        "descList": [
+            "Sistema Multivendor basado en Dokan",
+            "Generación de facturas en PDF adaptado a Dokan",
+            "Registro y control de stocks",
+            "Filtro automático de productos por categorías y atributos",
+            "Control de precios para clientes B2B y B2C",
+            "Control de precios y productos basado en Roles de Usuario",
+            "Registro de proveedores y vendedores",
+            "Restricciones de productos por clientes, roles, países y cantidades",
+            "Reconocimiento de país de envío por IP"
+        ],
+        "apps": [
+            "Wordpress",
+            "Woocommerce",
+            "Dokan",
+            "Mailpoet",
+            "Elementor",
+            "WPML",
+            "Custom"
+        ]
+    }
+]

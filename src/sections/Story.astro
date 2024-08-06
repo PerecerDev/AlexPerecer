@@ -1,0 +1,17 @@
+---
+import CustomSection from "../components/CustomSection.astro"
+import StoryCard from "../components/StoryCard.astro"
+import data from "../data/Story.json"
+
+const Stories = Object.values(data);
+---
+
+<CustomSection bg="bg-[#564c45]" iconSection="/icons/sections/Story.svg" nameSection="Story">
+
+    {
+        Stories.map(story => (
+            <StoryCard company={story.company} position={story.position} place={story.place} tasks={story.tasks} />
+        ))
+    }
+
+</CustomSection>

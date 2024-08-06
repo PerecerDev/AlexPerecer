@@ -22,12 +22,12 @@
     },
     "Canva": {
       "icon": "/icons/skills/Canva.svg",
-      "name": "Adobe Canva",
+      "name": "Canva",
       "level": "Avanzado"
     },
     "Figma": {
       "icon": "/icons/skills/Figma.svg",
-      "name": "Adobe Figma",
+      "name": "Figma",
       "level": "Básico"
     }
   },

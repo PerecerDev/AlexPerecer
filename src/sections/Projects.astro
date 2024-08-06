@@ -1,0 +1,21 @@
+---
+import CustomSection from "../components/CustomSection.astro"
+import ProjectCard from "../components/ProjectCard.astro"
+import projects from "../data/Projects.json"
+---
+
+<CustomSection bg="bg-[#3c3027]" iconSection="/icons/sections/Projects.svg" nameSection="Projects">
+        {
+            projects.map(project => (
+                <ProjectCard
+                    name={project.name}
+                    company={project.company}
+                    descriptions={project.descriptions}
+                    list={project.descList? project.descList: []}
+                    apps={project.apps}
+                />
+            ))
+        }
+</CustomSection>
+
+
