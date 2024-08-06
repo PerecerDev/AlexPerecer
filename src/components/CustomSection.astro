@@ -4,15 +4,15 @@ import BioIcon from '../icons/BioIcon.astro'
 
 <section class=`relative`>
 
-    <figure class=`${Astro.props.bg} block px-12 py-14 absolute -top-10 left-1/2 -translate-x-1/2 z-10 rounded-full`>
+    <figure class=`${Astro.props.bg} block px-12 py-14 absolute top-4 left-1/2 -translate-x-1/2 z-10 rounded-full`>
         <BioIcon class=" w-[4.5rem] "/>
     </figure>
 
     <div
-        class=`${Astro.props.bg} py-48`
-        style="clip-path: polygon(0 25%, 100% 0, 100% 75%, 0% 100%);"    
+        class=`${Astro.props.bg} ${Astro.props.text} py-80`
+        style="clip-path: polygon(0 20%, 100% 0, 100% 80%, 0% 100%);"    
     >
-        <article class=" max-w-screen-lg mx-auto">
+        <article class=" max-w-screen-md mx-auto">
             <slot />
         </article>
     </div>
