@@ -2,19 +2,42 @@
 const {bg, iconSection, nameSection, text, iconSize} = Astro.props
 ---
 
-<section class=`relative -mt-[200px]`>
+<section class="relative -mt-[205px]">
   <figure
-    class=`${bg} block px-12 py-14 absolute top-4 left-1/2 -translate-x-1/2 z-10 rounded-full`
+    class={`${bg} block px-12 py-14 absolute top-4 left-1/2 -translate-x-1/2 z-10 rounded-full`}
   >
-    <img src={iconSection} alt={nameSection} class=` h-[4.5rem] ${iconSize}`/>
+    <img src={iconSection} alt={nameSection} class={`h-[4.5rem] ${iconSize}`} />
   </figure>
 
   <div
-    class=`${bg} ${text} py-80`
+    class={`${bg} ${text} py-80`}
     style="clip-path: polygon(0 200px, 100% 0, 100% calc(100% - 200px), 0% 100%);"
   >
-    <article class=` max-w-screen-md mx-auto`>
+    <article class="max-w-screen-md mx-auto px-5">
       <slot />
     </article>
   </div>
 </section>
+
+<style>
+  /* Para pantallas pequeñas (móviles) */
+  @media (max-width: 640px) {
+    section div {
+      clip-path: polygon(0 100px, 100% 0, 100% calc(100% - 100px), 0% 100%) !important;
+    }
+  }
+
+  /* Para pantallas medianas */
+  @media (min-width: 641px) and (max-width: 1024px) {
+    section div {
+      clip-path: polygon(0 150px, 100% 0, 100% calc(100% - 150px), 0% 100%) !important;
+    }
+  }
+
+  /* Para pantallas grandes (desktop) */
+  @media (min-width: 1025px) {
+    section div {
+      clip-path: polygon(0 200px, 100% 0, 100% calc(100% - 200px), 0% 100%) !important
+    }
+  }
+</style>

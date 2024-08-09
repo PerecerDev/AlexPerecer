@@ -2,13 +2,11 @@
 const {name, company, descriptions, list, apps} = Astro.props 
 const pathIcon = "../../public/icons/skills/"
 const extension = ".svg"
-var result = " - ";
-
 ---
 
-<div class="mb-20 text-center">
+<div class="mb-28">
     <h4 class="text-white font-light text-lg">{company}</h4>
-    <h3 class="text-white font-normal text-2xl">{name}</h3>
+    <h3 class="text-white font-normal text-2xl mb-3">{name}</h3>
         {
             descriptions.map(description => (
                 <p class="text-[#cec1b5] font-light text-base">{description}</p><br/>
@@ -17,17 +15,23 @@ var result = " - ";
     <ul>
         {
             list.map(lis => (
-                <li class="text-[#cec1b5] font-light text-base">{lis}</li>
+                <li class="text-[#cec1b5] font-light text-base">· {lis}</li>
             ))
         }
     </ul>
-    <ul class=" inline text-white">
+    {
+        list != "" ? <br/> : ""
+    }
+    <ul class=" flex gap-2 text-white">
         {
             apps.map(app => (
 
                 <li>
-                    <h1>YEAH</h1>
-                    <img src={app} alt="" />                    
+                    <img
+                        src={ `${pathIcon}${app}${extension}` }
+                        alt={`${app} icon`} 
+                        class=" h-6"
+                    />                    
                 </li>
             ))
         }
